@@ -1,0 +1,26 @@
+/* Модальное окно с функцией просмотра картинки (В максимальную ширину и высоту) */
+.map {
+    width: 100vw;
+    height: 100vh
+}
+
+
+/* Отключаем transition */
+.map div {
+    transition: 0s all;
+}
+
+/* Блок удерживающий картинку по центру */
+.map-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
