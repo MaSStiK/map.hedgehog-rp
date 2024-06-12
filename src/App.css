@@ -27,14 +27,6 @@ section {
     padding: var(--gap-small);
 }
 
-
-/* Заголовки страниц */
-.page-title {
-    width: min(600px, 100%);
-    color: var(--text-dark);
-    margin: 0 auto;
-}
-
 /* Разделитель */
 hr {
     width: 100%;
