@@ -14,8 +14,6 @@ export default function HomePage() {
 
     return (
         <article>
-            {/* <h4 className="page-title">h/home</h4> */}
-
             <section>
                 <h2>Главная</h2>
             </section>

@@ -1,7 +1,15 @@
 /* Модальное окно с функцией просмотра картинки (В максимальную ширину и высоту) */
 .map {
-    width: 100vw;
-    height: 100vh
+    width: 100%;
+    height: 100%;
+}
+
+.map__controls {
+    position: fixed;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    z-index: var(--z-over);
 }
 
 
@@ -11,7 +19,7 @@
 }
 
 /* Блок удерживающий картинку по центру */
-.map-wrapper {
+.map__image-wrapper {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -19,7 +27,7 @@
     align-items: center;
 }
 
-.map-wrapper img {
+.map__image-wrapper img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
