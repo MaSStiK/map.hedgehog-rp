@@ -43,7 +43,7 @@ export default function MapPage() {
                     <Controls />
                     <TransformComponent>
                         <div className="map__image-wrapper">
-                            <img src={imgWorldMap} alt="fullscreen" draggable="false" />
+                            <img src={imgWorldMap} alt="map" draggable="false" />
                         </div>
                     </TransformComponent>
                 </TransformWrapper>
