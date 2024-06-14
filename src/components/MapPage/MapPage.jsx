@@ -1,19 +1,22 @@
 import { useState, useEffect } from "react"
 import { setPageTitle } from "../Global"
+
 import { TransformWrapper, TransformComponent, useControls } from "react-zoom-pan-pinch";
+// https://github.com/BetterTyped/react-zoom-pan-pinch#readme
+
 import ButtonImage from "../ButtonImage/ButtonImage"
 import imgPlus from "../../assets/svg/Plus.svg"
 import imgMinus from "../../assets/svg/Minus.svg"
 import imgFullscreen from "../../assets/svg/Fullscreen.svg"
 
-import imgWorldMap from "../../assets/images/world_map.png"
+import imgWorldMap from "../../assets/images/world_map 14.06.png"
 
 import "./MapPage.css"
 
 const Controls = () => {
     const { zoomIn, zoomOut, resetTransform } = useControls()
     return (
-        <div className="map__controls flex-col">
+        <div className="fullscreen__controls flex-col">
             <ButtonImage
                 src={imgPlus}
                 alt="zoom-in"
@@ -38,11 +41,11 @@ export default function MapPage() {
 
     return (
         <article>
-            <div className="map">
+            <div className="fullscreen">
                 <TransformWrapper>
                     <Controls />
                     <TransformComponent>
-                        <div className="map__image-wrapper">
+                        <div className="fullscreen__image-wrapper">
                             <img src={imgWorldMap} alt="map" draggable="false" />
                         </div>
                     </TransformComponent>
