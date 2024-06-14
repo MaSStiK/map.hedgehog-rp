@@ -27,7 +27,7 @@ export const CONFIG = {
 
 // Функция для установки заголовка страницы
 export function setPageTitle(title) {
-    document.title = `${title} | Ежиное-РП`
+    document.title = `${title} | Карта Ежиного-РП`
 }
 
 
