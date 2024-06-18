@@ -14,7 +14,6 @@ import "./App.css";
 import "./App-phone.css";
 
 // Импорт страниц
-import Home from "./components/HomePage/HomePage";
 import Map from "./components/MapPage/MapPage";
 import Dev from "./components/DevPage/DevPage";
 
@@ -36,7 +35,7 @@ export default function App() {
                     <Route path="/map" element={<Map />} />
                     <Route path="/dev" element={<Dev />} />
 
-                    <Route path="/" element={<Home />} />
+                    <Route path="/" element={<Map />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </DataContext.Provider>

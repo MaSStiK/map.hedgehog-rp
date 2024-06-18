@@ -34,7 +34,7 @@ export default function DevPage() {
     }
 
     return (
-        <article>
+        <article className="dev-article flex-col">
             <section className="flex-col">
                 <h1>Never gonna give you up</h1>
                 <h2>Never gonna let you down</h2>
