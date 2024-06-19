@@ -1,12 +1,10 @@
-import { useState, useEffect } from "react"
+import { useEffect } from "react"
 import { setPageTitle } from "../Global"
-import ButtonImage from "../ButtonImage/ButtonImage"
 
 import Controls from "./MapControls";
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 // https://github.com/BetterTyped/react-zoom-pan-pinch#readme
 
-import Aside from "../Aside/Aside";
 import ActualMap from "./ActualMap";
 
 import "./MapPage.css"
@@ -17,8 +15,6 @@ export default function MapPage() {
 
     return (
         <article>
-            {/* <Aside /> */}
-
             <div className="fullscreen">
                 <TransformWrapper>
                     <Controls />
