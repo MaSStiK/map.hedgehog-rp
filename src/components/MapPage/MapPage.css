@@ -1,6 +1,6 @@
 /* Модальное окно с функцией просмотра картинки (В максимальную ширину и высоту) */
 .fullscreen {
-    width: 100%;
+    flex: 1;
     height: 100%;
     position: relative;
 }
@@ -8,7 +8,7 @@
 .fullscreen__controls {
     position: absolute;
     top: 50%;
-    right: 12px;
+    right: calc(var(--gap-medium) + 4px);
     transform: translateY(-50%);
     z-index: var(--z-over);
 }
@@ -21,7 +21,7 @@
 
 /* Блок удерживающий картинку по центру */
 .fullscreen__image-wrapper {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@
 }
 
 .fullscreen__image-wrapper img {
-    max-width: 100%;
+    max-width: calc(100% - var(--gap-medium) - var(--gap-medium));
     max-height: 100%;
     object-fit: contain;
 }

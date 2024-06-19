@@ -1,0 +1,10 @@
+/* Контент в 100% */
+@media screen and (max-width: 900px) {
+    .fullscreen__controls {
+        right: calc(var(--gap-small) + 4px);
+    }
+
+    .fullscreen__image-wrapper img {
+        max-width: calc(100% - var(--gap-small) - var(--gap-small));
+    }
+}

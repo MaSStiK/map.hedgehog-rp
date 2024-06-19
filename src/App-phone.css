@@ -4,9 +4,4 @@
     article::-webkit-scrollbar-track {
         margin: calc(50px + var(--gap-small)) 0 var(--gap-small) 0;
     }
-
-    /* Блок с контентом */
-    section {
-        margin: 0 auto; /* По центру страницы */
-    }
 }

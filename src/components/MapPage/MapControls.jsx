@@ -1,8 +1,8 @@
 import { useControls } from "react-zoom-pan-pinch";
-import imgPlus from "../assets/svg/Plus.svg"
-import imgMinus from "../assets/svg/Minus.svg"
-import imgFullscreen from "../assets/svg/Fullscreen.svg"
-import ButtonImage from "./ButtonImage/ButtonImage"
+import imgPlus from "../../assets/svg/Plus.svg"
+import imgMinus from "../../assets/svg/Minus.svg"
+import imgFullscreen from "../../assets/svg/Fullscreen.svg"
+import ButtonImage from "../ButtonImage/ButtonImage"
 
 export default function Controls() {
     const { zoomIn, zoomOut, resetTransform } = useControls()
