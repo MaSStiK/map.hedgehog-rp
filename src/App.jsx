@@ -26,7 +26,7 @@ export default function App() {
     return (
         <>
             <Modal>
-                {Context.modalData}
+                {Context.Modal}
             </Modal>
 
             <DataContext.Provider value={Context}>

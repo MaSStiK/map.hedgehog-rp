@@ -1,10 +1,11 @@
-/* Модальное окно с функцией просмотра картинки (В максимальную ширину и высоту) */
+/* Полноэкранный просмотр */
 .fullscreen {
     flex: 1;
     height: 100%;
     position: relative;
 }
 
+/* Кнопки управления */
 .fullscreen__controls {
     position: absolute;
     top: 50%;

@@ -4,8 +4,6 @@ html, body {
 }
 
 body {
-    display: flex;
-    justify-content: center;
     background-color: var(--bg-primary);
 }
 

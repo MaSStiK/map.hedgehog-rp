@@ -1,0 +1,9 @@
+/* Контент в 100% */
+@media screen and (max-width: 900px) {
+    aside {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--border-primary);
+        padding: var(--gap-small);
+    }
+}

@@ -4,6 +4,11 @@
         right: calc(var(--gap-small) + 4px);
     }
 
+    /* Блок удерживающий картинку по центру */
+    .fullscreen__image-wrapper {
+        height: calc(100vh - 170px);
+    }
+
     .fullscreen__image-wrapper img {
         max-width: calc(100% - var(--gap-small) - var(--gap-small));
     }

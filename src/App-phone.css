@@ -1,7 +1,6 @@
 /* Контент в 100% */
 @media screen and (max-width: 900px) {
-    /* Добавляем scrollbar отступ снизу */
-    article::-webkit-scrollbar-track {
-        margin: calc(50px + var(--gap-small)) 0 var(--gap-small) 0;
+    article {
+        flex-direction: column;
     }
 }

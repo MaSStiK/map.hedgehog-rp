@@ -1,3 +1,5 @@
-import imgWorldMap from "../../assets/maps/s4/world-map_19.06.png"
+import imgWorldMap from "../../assets/maps/s4/world-map_19.06.2024.png"
 
-export default imgWorldMap
+export default function ActualMap(Context) {
+    Context.setMap({url: imgWorldMap})
+}
