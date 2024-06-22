@@ -2,6 +2,14 @@ import { useState, useContext, useEffect } from "react";
 import CustomSelect from "../CustomSelect/CustomSelect"
 import { DataContext } from "../Context"
 
+import imgWorldMap_S4_19_06_2024 from "../../assets/maps/s4/world-map_19.06.2024.png"
+import imgWorldMap_S4_17_06_2024 from "../../assets/maps/s4/world-map_17.06.2024.png"
+import imgWorldMap_S4_14_06_2024 from "../../assets/maps/s4/world-map_14.06.2024.png"
+import imgWorldMap_S4_12_06_2024 from "../../assets/maps/s4/world-map_12.06.2024.png"
+import imgLoreMap_S4 from "../../assets/maps/s4/lore-map.png"
+
+import imgPhysicalMap_S3 from "../../assets/maps/s3/physical-map.png"
+
 const seasonOptions = [
     {value: "s4", label: "Сезон 4 (Текущий)"},
     {value: "s3", label: "Сезон 3"},
@@ -11,15 +19,15 @@ const seasonOptions = [
 
 const MapOptions = {
     s4: [
-        {value: "19.06", label: "19.06.2024", url: "../../assets/maps/s4/world-map_19.06.2024.png"},
-        {value: "17.06", label: "17.06.2024", url: "../../assets/maps/s4/world-map_17.06.2024.png"},
-        {value: "14.06", label: "14.06.2024", url: "../../assets/maps/s4/world-map_14.06.2024.png"},
-        {value: "12.06", label: "12.06.2024", url: "../../assets/maps/s4/world-map_12.06.2024.png"},
-        {value: "lore-map", label: "Лорная карта", url: "../../assets/maps/s4/lore-map.png"},
+        {value: "19.06", label: "19.06.2024", url: imgWorldMap_S4_19_06_2024},
+        {value: "17.06", label: "17.06.2024", url: imgWorldMap_S4_17_06_2024},
+        {value: "14.06", label: "14.06.2024", url: imgWorldMap_S4_14_06_2024},
+        {value: "12.06", label: "12.06.2024", url: imgWorldMap_S4_12_06_2024},
+        {value: "lore-map", label: "Лорная карта", url: imgLoreMap_S4},
     ],
 
     s3: [
-        {value: "physical_map", label: "Физическая карта", url: "../../assets/maps/s3/physical-map.png"},
+        {value: "physical_map", label: "Физическая карта", url: imgPhysicalMap_S3},
     ]
 }
 
