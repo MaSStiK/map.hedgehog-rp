@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import ButtonProfile from "../ButtonProfile/ButtonProfile"
 import ButtonImage from "../ButtonImage/ButtonImage"
-import Selection from "./Selection"
+import MapSelection from "../MapSelection/MapSelection"
 import imgLogo from "../../assets/logo/logoFullSize.png"
 
 import "./Aside.css"
@@ -19,7 +19,7 @@ export default function Aside() {
                 onClick={() => window.open("https://hedgehog-rp.ru", "_self")}
             />
 
-            <Selection />
+            <MapSelection />
         </aside>
     )
 }
