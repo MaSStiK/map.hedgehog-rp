@@ -7,6 +7,7 @@ import imgWorldMap_S4_17_06_2024 from "../../assets/maps/s4/world-map_17.06.2024
 import imgWorldMap_S4_14_06_2024 from "../../assets/maps/s4/world-map_14.06.2024.png"
 import imgWorldMap_S4_12_06_2024 from "../../assets/maps/s4/world-map_12.06.2024.png"
 import imgLoreMap_S4 from "../../assets/maps/s4/lore-map.png"
+import imgPhysicalMap_S4 from "../../assets/maps/s4/physical-map.png"
 
 import imgPhysicalMap_S3 from "../../assets/maps/s3/physical-map.png"
 
@@ -24,12 +25,15 @@ const MapOptions = {
         {value: "14.06", label: "14.06.2024", url: imgWorldMap_S4_14_06_2024},
         {value: "12.06", label: "12.06.2024", url: imgWorldMap_S4_12_06_2024},
         {value: "lore-map", label: "Лорная карта", url: imgLoreMap_S4},
+        {value: "physical_map", label: "Физическая карта", url: imgPhysicalMap_S4},
     ],
 
     s3: [
         {value: "physical_map", label: "Физическая карта", url: imgPhysicalMap_S3},
     ]
 }
+
+MapOptions.s4[0].label += " (Актуалка)"
 
 export default function Selection() {
     const Context = useContext(DataContext)
