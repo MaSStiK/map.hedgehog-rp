@@ -2,15 +2,20 @@ import { useState, useContext, useEffect } from "react";
 import CustomSelect from "../CustomSelect/CustomSelect"
 import { DataContext } from "../Context"
 
-import imgS4_19062024 from "../../assets/maps/s4/19.06.2024.png"
-import imgS4_17062024 from "../../assets/maps/s4/17.06.2024.png"
-import imgS4_14062024 from "../../assets/maps/s4/14.06.2024.png"
-import imgS4_12062024 from "../../assets/maps/s4/12.06.2024.png"
-import imgS4_19072024 from "../../assets/maps/s4/19.07.2024.png"
-import imgS4_27072024 from "../../assets/maps/s4/27.07.2024.png"
+
+// s4
+import imgS4_11_08_2024 from "../../assets/maps/s4/11.08.2024.png"
+import imgS4_27_07_2024 from "../../assets/maps/s4/27.07.2024.png"
+import imgS4_19_07_2024 from "../../assets/maps/s4/19.07.2024.png"
+import imgS4_19_06_2024 from "../../assets/maps/s4/19.06.2024.png"
+import imgS4_17_06_2024 from "../../assets/maps/s4/17.06.2024.png"
+import imgS4_14_06_2024 from "../../assets/maps/s4/14.06.2024.png"
+import imgS4_12_06_2024 from "../../assets/maps/s4/12.06.2024.png"
 import imgLoreMap_S4 from "../../assets/maps/s4/lore-map.png"
 import imgPhysicalMap_S4 from "../../assets/maps/s4/physical-map.png"
 
+
+// s3
 import imgPhysicalMap_S3 from "../../assets/maps/s3/physical-map.png"
 
 const seasonOptions = [
@@ -22,12 +27,13 @@ const seasonOptions = [
 
 export const MapOptions = {
     s4: [
-        {value: "27.07", label: "27.07.2024", url: imgS4_27072024},
-        {value: "17.07", label: "17.07.2024", url: imgS4_19072024},
-        {value: "19.06", label: "19.06.2024", url: imgS4_19062024},
-        {value: "17.06", label: "17.06.2024", url: imgS4_17062024},
-        {value: "14.06", label: "14.06.2024", url: imgS4_14062024},
-        {value: "12.06", label: "12.06.2024", url: imgS4_12062024},
+        {value: "11.08.2024", label: "11.08.2024", url: imgS4_11_08_2024},
+        {value: "27.07.2024", label: "27.07.2024", url: imgS4_27_07_2024},
+        {value: "17.07.2024", label: "17.07.2024", url: imgS4_19_07_2024},
+        {value: "19.06.2024", label: "19.06.2024", url: imgS4_19_06_2024},
+        {value: "17.06.2024", label: "17.06.2024", url: imgS4_17_06_2024},
+        {value: "14.06.2024", label: "14.06.2024", url: imgS4_14_06_2024},
+        {value: "12.06.2024", label: "12.06.2024", url: imgS4_12_06_2024},
         {value: "lore-map", label: "Лорная карта", url: imgLoreMap_S4},
         {value: "physical_map", label: "Физическая карта", url: imgPhysicalMap_S4},
     ],
