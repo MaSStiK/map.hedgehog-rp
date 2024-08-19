@@ -6,6 +6,6 @@ aside {
     padding: var(--gap-medium);
 }
 
-aside > .button-profile img {
+aside > a .button-profile img {
     background-color: transparent;
 }

@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import ButtonProfile from "../ButtonProfile/ButtonProfile"
 import ButtonImage from "../ButtonImage/ButtonImage"
 import MapSelection from "../MapSelection/MapSelection"
@@ -13,11 +13,12 @@ export default function Aside() {
 
     return (
         <aside className="flex-col">
-            <ButtonProfile
-                src={imgLogo}
-                text={"Основной сайт"}
-                onClick={() => window.open("https://hedgehog-rp.ru", "_self")}
-            />
+            <Link to="https://hedgehog-rp.ru">
+                <ButtonProfile
+                    src={imgLogo}
+                    text={"Основной сайт"}
+                />
+            </Link>
 
             <MapSelection />
         </aside>
