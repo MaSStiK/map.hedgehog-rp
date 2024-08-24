@@ -4,6 +4,7 @@ import { DataContext } from "../Context"
 
 
 // s4
+import imgS4_24_08_2024 from "../../assets/maps/s4/24.08.2024.png"
 import imgS4_11_08_2024 from "../../assets/maps/s4/11.08.2024.png"
 import imgS4_27_07_2024 from "../../assets/maps/s4/27.07.2024.png"
 import imgS4_19_07_2024 from "../../assets/maps/s4/19.07.2024.png"
@@ -27,6 +28,7 @@ const seasonOptions = [
 
 export const MapOptions = {
     s4: [
+        {value: "24.08.2024", label: "24.08.2024", url: imgS4_24_08_2024},
         {value: "11.08.2024", label: "11.08.2024", url: imgS4_11_08_2024},
         {value: "27.07.2024", label: "27.07.2024", url: imgS4_27_07_2024},
         {value: "17.07.2024", label: "17.07.2024", url: imgS4_19_07_2024},
