@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import { Link } from "react-router-dom"
 import { setPageTitle } from "../Global"
 
 import "./NotFoundPage.css"
@@ -8,10 +9,11 @@ export default function NotFoundPage() {
 
     return (
         <article>
-            <h4 className="page-title">h/error404</h4>
-
-            <section>
+            <section className="flex-col section-notFound">
                 <h2>Страница не найдена!</h2>
+                <Link to={"/"}>
+                    <button>На главную</button>
+                </Link>
             </section>
         </article>
     )
