@@ -46,6 +46,8 @@ function downloadImage(event) {
     element.href = event.url
     event.label = event.label.replace(" (Актуалка)", "")
     element.download = `Карта ${event.label}.png`
+    console.log(element);
+    
     document.body.appendChild(element)
     element.click()
     document.body.removeChild(element)
