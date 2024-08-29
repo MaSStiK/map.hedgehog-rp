@@ -17,8 +17,10 @@ export default function CustomSelect({
         border: 1px solid var(--border-input);
         color: var(--text-white);
         font-size: var(--p);
+        font-variant-numeric: tabular-nums;
         transition: 0s all;
         white-space: pre-wrap;
+
 
         /* Когда развернут */
         &[aria-expanded=true] {
