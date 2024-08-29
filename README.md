@@ -1,1 +1,1 @@
-### Разработка карты мира [Ежиного РП](https://vk.com/hedgehogs_army)
+### Карта мира [Ежиного РП](https://vk.com/hedgehogs_army)
