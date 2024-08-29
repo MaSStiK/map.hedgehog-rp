@@ -48,4 +48,5 @@ function downloadImage(event) {
     element.download = `Карта ${event.label}.png`
     document.body.appendChild(element)
     element.click()
+    document.body.removeChild(element)
 }
