@@ -1,12 +1,22 @@
 /* Контент в 100% */
 @media screen and (max-width: 900px) {
+    .fullscreen {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
     .fullscreen__controls {
+        top: calc(var(--gap-small) + 4px);
         right: calc(var(--gap-small) + 4px);
+        transform: none;
     }
 
     /* Блок удерживающий картинку по центру */
     .fullscreen__image-wrapper {
-        height: calc(100vh - 170px);
+        height: auto;
+        margin-top: var(--gap-small);
     }
 
     .fullscreen__image-wrapper img {
