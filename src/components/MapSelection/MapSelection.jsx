@@ -11,6 +11,7 @@ const seasonOptions = [
 
 export const MapOptions = {
     s4: [
+        {value: "02.01.2025", label: "02.01.2025", url: require("../../assets/maps/s4/2025.01.02.png")},
         {value: "29.12.2024", label: "29.12.2024", url: require("../../assets/maps/s4/2024.12.29.png")},
         {value: "21.11.2024", label: "21.11.2024", url: require("../../assets/maps/s4/2024.11.21.png")},
         {value: "22.10.2024", label: "22.10.2024", url: require("../../assets/maps/s4/2024.10.22.png")},
