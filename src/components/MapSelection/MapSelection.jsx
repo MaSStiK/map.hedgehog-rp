@@ -12,6 +12,7 @@ const seasonOptions = [
 
 export const MapOptions = {
     s5: [
+        {value: "10.05.202_2", label: "10.05.2025_2", url: require("../../assets/maps/s5/2025.05.10_2.png")},
         {value: "10.05.2025", label: "10.05.2025", url: require("../../assets/maps/s5/2025.05.10.png")},
         {value: "04.05.2025", label: "04.05.2025", url: require("../../assets/maps/s5/2025.05.04.png")},
         {value: "03.05.2025", label: "03.05.2025", url: require("../../assets/maps/s5/2025.05.03.jpg")},
