@@ -13,9 +13,11 @@ const seasonOptions = [
 export const MapOptions = {
     s5: [
         {value: "10.05.2025", label: "10.05.2025", url: require("../../assets/maps/s5/2025.05.10.png")},
-        {value: "05.05.2025", label: "05.05.2025", url: require("../../assets/maps/s5/2025.05.05.png")},
+        {value: "04.05.2025", label: "04.05.2025", url: require("../../assets/maps/s5/2025.05.04.png")},
+        {value: "03.05.2025", label: "03.05.2025", url: require("../../assets/maps/s5/2025.05.03.jpg")},
     ],
     s4: [
+        {value: "03.05.2025", label: "03.05.2025", url: require("../../assets/maps/s4/2025.05.03.png")},
         {value: "23.02.2025", label: "23.02.2025", url: require("../../assets/maps/s4/2025.02.23.png")},
         {value: "03.01.2025_2", label: "03.01.2025_2", url: require("../../assets/maps/s4/2025.01.03_2.png")},
         {value: "03.01.2025", label: "03.01.2025", url: require("../../assets/maps/s4/2025.01.03.png")},
