@@ -3,13 +3,17 @@ import CustomSelect from "../CustomSelect/CustomSelect"
 import { DataContext } from "../Context"
 
 const seasonOptions = [
-    {value: "s4", label: "Сезон 4 (Текущий)"},
+    {value: "s5", label: "Сезон 5 (Текущий)"},
+    {value: "s4", label: "Сезон 4"},
     {value: "s3", label: "Сезон 3"},
     // {value: "s2", label: "Сезон 2"},
     // {value: "s1", label: "Сезон 1"},
 ]
 
 export const MapOptions = {
+    s5: [
+        {value: "10.05.2025", label: "10.05.2025", url: require("../../assets/maps/s5/2025.05.10.png")},
+    ],
     s4: [
         {value: "23.02.2025", label: "23.02.2025", url: require("../../assets/maps/s4/2025.02.23.png")},
         {value: "03.01.2025_2", label: "03.01.2025_2", url: require("../../assets/maps/s4/2025.01.03_2.png")},
@@ -38,11 +42,11 @@ export const MapOptions = {
     ]
 }
 
-MapOptions.s4[0].label += " (Актуалка)"
+MapOptions.s5[0].label += " (Актуалка)"
 
 export default function Selection() {
     const Context = useContext(DataContext)
-    const [Season, setSeason] = useState("s4")
+    const [Season, setSeason] = useState("s5")
 
     // Устанавливаем значение по умолчанию
     useEffect(() => {
