@@ -13,6 +13,7 @@ const seasonOptions = [
 export const MapOptions = {
     s5: [
         {value: "10.05.2025", label: "10.05.2025", url: require("../../assets/maps/s5/2025.05.10.png")},
+        {value: "05.05.2025", label: "05.05.2025", url: require("../../assets/maps/s5/2025.05.05.png")},
     ],
     s4: [
         {value: "23.02.2025", label: "23.02.2025", url: require("../../assets/maps/s4/2025.02.23.png")},
@@ -42,16 +43,18 @@ export const MapOptions = {
     ]
 }
 
-MapOptions.s5[0].label += " (Актуалка)"
+// Текущий сезон
+const currentSeason = Object.keys(MapOptions)[0]
+MapOptions[currentSeason][0].label += " (Актуалка)"
 
 export default function Selection() {
     const Context = useContext(DataContext)
-    const [Season, setSeason] = useState("s5")
+    const [Season, setSeason] = useState(currentSeason)
 
     // Устанавливаем значение по умолчанию
     useEffect(() => {
-        Context.setMap(MapOptions.s4[0])
-    }, [])
+        Context.setMap(MapOptions[currentSeason][0])
+    }, [Context])
 
     function changeSeason(season) {
         setSeason(season) // Устанавливаем выбранный сезон
