@@ -2,27 +2,25 @@
 @media screen and (max-width: 900px) {
     .fullscreen {
         width: 100%;
-        flex: none;
         display: flex;
         justify-content: center;
         align-items: flex-start;
-
-        margin-top: calc(var(--button-height) + var(--gap-small));
     }
 
     .fullscreen__controls {
-        flex-direction: row;
-        top: calc(-1 * var(--button-height));
-        right: 50%;
-        transform: translate(50%, 0);
-        z-index: var(--z-main);
+        top: calc(var(--gap-small) + var(--gap-small));
+        right: calc(var(--gap-small) + var(--gap-small));
+        transform: translate(0, 0);
+    }
+
+    .fullscreen__controls button {
+        border: 1px solid #ffffff;
     }
 
     /* Блок удерживающий картинку по центру */
     .fullscreen__image-wrapper {
         height: 100%;
-        margin-top: var(--gap-small);
-        margin-bottom: 60px;
+        margin: 160px 0;
     }
 
     .fullscreen__image-wrapper img {
