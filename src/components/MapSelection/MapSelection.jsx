@@ -12,6 +12,7 @@ const seasonOptions = [
 
 export const MapOptions = {
     s5: [
+        {value: "05.06.2025_dnh", label: "05.06.2025 Динахон", url: require("../../assets/maps/s5/2025.06.05_dnh.png")},
         {value: "27.05.2025", label: "27.05.2025", url: require("../../assets/maps/s5/2025.05.27.png")},
         {value: "27.05.2025_dnh", label: "27.05.2025 Динахон", url: require("../../assets/maps/s5/2025.05.27_dnh.png")},
         {value: "10.05.2025_2", label: "10.05.2025_2", url: require("../../assets/maps/s5/2025.05.10_2.png")},
