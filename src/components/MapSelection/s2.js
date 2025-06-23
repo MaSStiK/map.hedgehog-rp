@@ -29,8 +29,8 @@ const s2 = [
     { value: "2022.02.03",      label: "2022.02.03",                         url: path + "2022.02.03.png" },
     { value: "2022.01.XX",      label: "2022.01.XX",                         url: path + "2022.01.XX.png" },
     { value: "2022.01.28",      label: "2022.01.28",                         url: path + "2022.01.28.png" },
-    { value: "2021.08.XX",      label: "2021.08.XX Кефалиния, Греция",       url: path + "2021.08.XX.png" },
-    { value: "2021.07.31",      label: "2021.07.31",                         url: path + "2021.07.31.png" }
+    { value: "2021.07.31",      label: "2021.07.31",                         url: path + "2021.07.31.png" },
+    { value: "2021.07.09",      label: "2021.07.09 Кефалиния, Греция",       url: path + "2021.07.09.png" }
 ];
 
 export default s2
