@@ -3,7 +3,6 @@ const path = "/maps/s2/"
 const s2 = [
     { value: "physical-map_2",  label: "Физическая карта 2",                 url: path + "physical-map_2.png" },
     { value: "physical-map",    label: "Физическая карта",                   url: path + "physical-map.png" },
-    { value: "2023.10.25",      label: "2023.10.25",                         url: path + "2023.10.25.png" },
     { value: "2023.08.XX",      label: "2023.08.XX",                         url: path + "2023.08.XX.png" },
     { value: "2023.08.19",      label: "2023.08.19 Карта Даниила Амирамова", url: path + "2023.08.19.png" },
     { value: "2023.08.03",      label: "2023.08.03",                         url: path + "2023.08.03.png" },
@@ -15,8 +14,9 @@ const s2 = [
     { value: "2023.04-2023.05", label: "2023.04-2023.05",                    url: path + "2023.04-2023.05.png" },
     { value: "2023.01.10",      label: "2023.01.10",                         url: path + "2023.01.10.png" },
     { value: "2022.10.28",      label: "2022.10.28",                         url: path + "2022.10.28.png" },
-    { value: "2022.09.XX",      label: "2022.09.XX",                         url: path + "2022.09.XX.png" },
+    { value: "2022.10.25",      label: "2022.10.25",                         url: path + "2022.10.25.png" },
     { value: "2022.09.18",      label: "2022.09.18",                         url: path + "2022.09.18.png" },
+    { value: "2022.09.03",      label: "2022.09.03",                         url: path + "2022.09.03.png" },
     { value: "2022.08.15",      label: "2022.08.15",                         url: path + "2022.08.15.png" },
     { value: "2022.08.03",      label: "2022.08.03",                         url: path + "2022.08.03.png" },
     { value: "2022.07.20",      label: "2022.07.20",                         url: path + "2022.07.20.png" },
