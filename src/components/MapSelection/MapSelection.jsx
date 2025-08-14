@@ -17,12 +17,6 @@ const seasonOptions = [
 ]
 
 export const MapOptions = { s5, s4, s3, s2, s1 }
-console.log(s5.length);
-console.log(s4.length);
-console.log(s3.length);
-console.log(s2.length);
-console.log(s1.length);
-
 
 // Текущий сезон
 const currentSeason = Object.keys(MapOptions)[0]
