@@ -28,9 +28,17 @@ const s2 = [
     { value: "2022.02.XX",      label: "2022.02.XX",                         url: path + "2022.02.XX.png" },
     { value: "2022.02.03",      label: "2022.02.03",                         url: path + "2022.02.03.png" },
     { value: "2022.01.XX",      label: "2022.01.XX",                         url: path + "2022.01.XX.png" },
-    { value: "2022.01.28",      label: "2022.01.28",                         url: path + "2022.01.28.png" },
+    { value: "2021.11.03",      label: "2021.11.03",       url: path + "2021.11.03.png" },
+    { value: "2021.10.08",      label: "2021.10.08",       url: path + "2021.10.08.png" },
+    { value: "2021.09.20",      label: "2021.09.20",       url: path + "2021.09.20.png" },
+    { value: "2021.09.02",      label: "2021.09.02",       url: path + "2021.09.02.png" },
+    { value: "2021.08.31",      label: "2021.08.31",       url: path + "2021.08.31.png" },
+    { value: "2021.08.19",      label: "2021.08.19 ",       url: path + "2021.08.19.png" },
     { value: "2021.07.31",      label: "2021.07.31",                         url: path + "2021.07.31.png" },
-    { value: "2021.07.09",      label: "2021.07.09 Кефалиния, Греция",       url: path + "2021.07.09.png" }
+    { value: "2021.07.25",      label: "2021.07.25",       url: path + "2021.07.25.png" },
+    { value: "2021.07.09",      label: "2021.07.09 Кефалиния, Греция",       url: path + "2021.07.09.png" },
+    { value: "2021.07.04",      label: "2021.07.04",       url: path + "2021.07.04.png" },
+    { value: "2021.07.03",      label: "2021.07.03 ",       url: path + "2021.07.03.png" },
 ];
 
 export default s2
