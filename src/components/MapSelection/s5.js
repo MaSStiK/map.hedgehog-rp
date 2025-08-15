@@ -1,6 +1,7 @@
 const path = "/maps/s5/"
 
 const s5 = [
+    { value: "2025.08.15_klb",  label: "2025.08.15 Кулбоб", url: path + "2025.08.15_klb.png" },
     { value: "2025.08.14_klb",  label: "2025.08.14 Кулбоб", url: path + "2025.08.14_klb.png" },
     { value: "2025.08.13_klb",  label: "2025.08.13 Кулбоб", url: path + "2025.08.13_klb.png" },
     { value: "2025.08.12_klb",  label: "2025.08.12 Кулбоб", url: path + "2025.08.12_klb.png" },
