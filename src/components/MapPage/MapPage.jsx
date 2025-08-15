@@ -24,7 +24,7 @@ export default function MapPage() {
                     <Controls />
                     <TransformComponent>
                         <div className="fullscreen__image-wrapper">
-                            <img src={Context.Map.url} alt="map" draggable="false" />
+                            <img src={Context.Map.value} alt="map" draggable="false" />
                         </div>
                     </TransformComponent>
                 </TransformWrapper>
