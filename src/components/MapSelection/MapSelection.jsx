@@ -2,6 +2,7 @@ import { useState, useContext, useEffect } from "react";
 import CustomSelect from "../CustomSelect/CustomSelect"
 import { DataContext } from "../Context"
 
+import s6 from "./s6";
 import s5 from "./s5";
 import s4 from "./s4";
 import s3 from "./s3";
@@ -9,6 +10,7 @@ import s2 from "./s2";
 import s1 from "./s1";
 
 const seasonOptions = [
+    {value: "s6", label: "Сезон 6"},
     {value: "s5", label: "Сезон 5"},
     {value: "s4", label: "Сезон 4"},
     {value: "s3", label: "Сезон 3"},
@@ -16,7 +18,7 @@ const seasonOptions = [
     {value: "s1", label: "Сезон 1"},
 ]
 
-export const MapOptions = { s5, s4, s3, s2, s1 }
+export const MapOptions = { s6, s5, s4, s3, s2, s1 }
 
 // Текущий сезон
 const currentSeason = Object.keys(MapOptions)[0]
