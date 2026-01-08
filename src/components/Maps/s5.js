@@ -1,4 +1,4 @@
-const path = "https://raw.githubusercontent.com/masstik/hedgehog-rp-assets/main/maps/s5/"
+const path = "https://raw.githubusercontent.com/masstik/hedgehog-rp-assets/main/map.hedgehog-rp/maps/s5/"
 
 const s5 = [
     { value: path + "2025.08.15_klb.png",   label: "2025.08.15 Кулбоб" },
