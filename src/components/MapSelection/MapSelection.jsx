@@ -26,21 +26,21 @@ MapOptions[currentSeason][0].label += " (Актуалка)"
 seasonOptions[0].label += " (Текущий)" 
 
 export default function Selection() {
-    const Context = useContext(DataContext)
+    const { Map, setMap } = useContext(DataContext)
     const [Season, setSeason] = useState(currentSeason)
 
     // Устанавливаем значение по умолчанию
     useEffect(() => {
-        Context.setMap(MapOptions[currentSeason][0])
-    }, [])
+        setMap(MapOptions[currentSeason][0])
+    }, [setMap])
 
     function changeSeason(season) {
         setSeason(season) // Устанавливаем выбранный сезон
-        Context.setMap(MapOptions[season][0]) // Устанавливаем первую карту выбранного сезона
+        setMap(MapOptions[season][0]) // Устанавливаем первую карту выбранного сезона
     }
 
     function changeMap(option) { // Меняем карту при выборе
-        Context.setMap(option)
+        setMap(option)
     }
 
     return(
@@ -58,8 +58,8 @@ export default function Selection() {
             <CustomSelect
                 options={MapOptions[Season]}
                 values={MapOptions[Season][
-                    MapOptions[Season].findIndex(option => option.value === Context.Map.value) >= 0
-                    ? MapOptions[Season].findIndex(option => option.value === Context.Map.value)
+                    MapOptions[Season].findIndex(option => option.value === Map.value) >= 0
+                    ? MapOptions[Season].findIndex(option => option.value === Map.value)
                     : 0
                 ]} // Значение по умолчанию
                 onChange={value => changeMap(value[0])}
