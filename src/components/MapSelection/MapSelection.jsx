@@ -1,13 +1,13 @@
 import { useState, useContext, useEffect } from "react";
-import CustomSelect from "../CustomSelect/CustomSelect"
-import { DataContext } from "../Context"
+import CustomSelect from "../CustomSelect/CustomSelect";
+import { DataContext } from "../Context";
 
-import s6 from "./s6";
-import s5 from "./s5";
-import s4 from "./s4";
-import s3 from "./s3";
-import s2 from "./s2";
-import s1 from "./s1";
+import s6 from "../Maps/s6";
+import s5 from "../Maps/s5";
+import s4 from "../Maps/s4";
+import s3 from "../Maps/s3";
+import s2 from "../Maps/s2";
+import s1 from "../Maps/s1";
 
 const seasonOptions = [
     {value: "s6", label: "Сезон 6"},
@@ -15,7 +15,7 @@ const seasonOptions = [
     {value: "s4", label: "Сезон 4"},
     {value: "s3", label: "Сезон 3"},
     {value: "s2", label: "Сезон 2"},
-    {value: "s1", label: "Сезон 1"},
+    {value: "s1", label: "Сезон 1"}
 ]
 
 export const MapOptions = { s6, s5, s4, s3, s2, s1 }
