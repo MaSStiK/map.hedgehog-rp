@@ -11,6 +11,11 @@
 - 📺 [Ежиное телевидение](https://github.com/MaSStiK/tv.hedgehog-rp)
 - 📊 [Статистика беседы](https://github.com/MaSStiK/stats.hedgehog-rp)
 
+## 🛠️ Технологии
+- **React** — интерфейс приложения
+- **react-dropdown-select** — кастомные выпадающие списки
+- **react-zoom-pan-pinch** — масштабирование и перемещение карты
+
 ## 📸 Скриншоты сайта
 <table>
     <tr>
