@@ -6,7 +6,7 @@
 Карта использовалась для отображения государств участников, изменений территорий, политической ситуации и развития мира внутри ролевой вселенной Hedgehog RP.
 
 ## 🔗 Связанные проекты
-- 🌍 [Hedgehog RP](https://github.com/MaSStiK/hedgehog-rp)
+- 🦔 [Hedgehog RP](https://github.com/MaSStiK/hedgehog-rp)
 - 📺 [Ежиное телевидение](https://github.com/MaSStiK/tv.hedgehog-rp)
 - 📊 [Статистика беседы](https://github.com/MaSStiK/stats.hedgehog-rp)
 
