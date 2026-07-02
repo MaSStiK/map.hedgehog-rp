@@ -5,66 +5,66 @@
 </p>
 
 # Hedgehog RP Map
-> **Main project:** [hedgehog-rp](https://github.com/MaSStiK/hedgehog-rp)
+> **Projet principal :** [hedgehog-rp](https://github.com/MaSStiK/hedgehog-rp)
 
-**Hedgehog RP Map** is an interactive world map for the Hedgehog RP universe. It provides access to the latest version of the map as well as an archive of maps from previous seasons.
+**Hedgehog RP Map** est une carte interactive de l’univers Hedgehog RP. Elle permet de consulter la version actuelle de la carte du monde ainsi que les cartes archivées des saisons précédentes.
 
-The project was used to visualize countries, territorial changes, political developments, and the evolution of the world throughout the history of the Hedgehog RP roleplay universe.
+Le projet sert à visualiser les États, les évolutions territoriales, les événements politiques et le développement du monde au fil de l’histoire de l’univers de jeu de rôle Hedgehog RP.
 
-## ✨ Features
-- Browse the current world map
-- Explore archived maps from previous seasons
-- Track territorial and political changes over time
-- Zoom and navigate large maps with ease
-- Switch between different seasons
+## ✨ Fonctionnalités
+- Consultation de la carte actuelle du monde
+- Accès aux cartes archivées des saisons précédentes
+- Suivi des changements territoriaux et politiques au fil du temps
+- Zoom et navigation fluides sur de grandes cartes
+- Basculement entre différentes saisons
 
-## 🔗 Related Projects
+## 🔗 Projets associés
 - 🦔 [Hedgehog RP](https://github.com/MaSStiK/hedgehog-rp)
-- 📺 [Hedgehog Television](https://github.com/MaSStiK/tv.hedgehog-rp)
-- 📊 [Chat Statistics](https://github.com/MaSStiK/stats.hedgehog-rp)
+- 📺 [Télévision Hedgehog](https://github.com/MaSStiK/tv.hedgehog-rp)
+- 📊 [Statistiques de la conversation](https://github.com/MaSStiK/stats.hedgehog-rp)
 
 ## 🛠️ Technologies
-- **React** - user interface
-- **react-dropdown-select** - custom dropdown selectors
-- **react-zoom-pan-pinch** - map zooming and navigation
+- **React** - interface utilisateur
+- **react-dropdown-select** - sélecteurs déroulants personnalisés
+- **react-zoom-pan-pinch** - zoom et navigation sur la carte
 
-## 📸 Season Maps
+## 📸 Cartes des saisons
 
 <table>
     <tr>
         <td align="center">
             <img width="500" alt="Season 6" src="https://github.com/user-attachments/assets/7e5cace6-eaaf-4618-a287-bf11ab6b10c8" />
             <br>
-            <p>Season 6</p>
+            <p>Saison 6</p>
         </td>
         <td align="center">
             <img width="500" alt="Season 5" src="https://github.com/user-attachments/assets/15aa0a30-9051-4817-bf56-c91ad40a1b86" />
             <br>
-            <p>Season 5</p>
+            <p>Saison 5</p>
         </td>
     </tr>
     <tr>
         <td align="center">
             <img width="500" alt="Season 4" src="https://github.com/user-attachments/assets/6ca4e360-51f4-46d0-9b40-b3d439d47b7d" />
             <br>
-            <p>Season 4</p>
+            <p>Saison 4</p>
         </td>
         <td align="center">
             <img width="500" alt="Season 3" src="https://github.com/user-attachments/assets/60de26b1-30a5-4a0a-b7b1-8e653c68ee57" />
             <br>
-            <p>Season 3</p>
+            <p>Saison 3</p>
         </td>
     </tr>
     <tr>
         <td align="center">
             <img width="500" alt="Season 2" src="https://github.com/user-attachments/assets/da38d84b-4808-4d12-b107-8b565f41ce04" />
             <br>
-            <p>Season 2</p>
+            <p>Saison 2</p>
         </td>
         <td align="center">
             <img width="500" alt="Season 1" src="https://github.com/user-attachments/assets/934af0fa-b7cf-4dc5-a30c-dd7cdeead006" />
             <br>
-            <p>Season 1</p>
+            <p>Saison 1</p>
         </td>
     </tr>
 </table>
