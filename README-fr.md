@@ -20,7 +20,7 @@ Le projet sert à visualiser les États, les évolutions territoriales, les év�
 
 ## 🔗 Projets associés
 - 🦔 [Hedgehog RP](https://github.com/MaSStiK/hedgehog-rp)
-- 📺 [Télévision Hedgehog](https://github.com/MaSStiK/tv.hedgehog-rp)
+- 📺 [Télévision Hérisson](https://github.com/MaSStiK/tv.hedgehog-rp)
 - 📊 [Statistiques de la conversation](https://github.com/MaSStiK/stats.hedgehog-rp)
 
 ## 🛠️ Technologies
