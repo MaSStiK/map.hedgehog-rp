@@ -34,12 +34,7 @@ const s1 = [
     { value: path + "2020.06.07_3.png", label: "2020.06.07_3.png" },
     { value: path + "2020.06.07_2.png", label: "2020.06.07_2.png" },
     { value: path + "2020.06.07_1.png", label: "2020.06.07_1.png" },
-    { value: path + "2020.06.06.png",   label: "2020.06.06" },
-    { value: path + "2020.05.20.png",   label: "2020.05.20" },
-
-    
-    
-
+    { value: path + "2020.06.06.png",   label: "2020.06.06" }
 ];
 
 export default s1
