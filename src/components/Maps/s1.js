@@ -21,9 +21,25 @@ const s1 = [
     { value: path + "2020.10.02.png",   label: "2020.10.02 Великоежиное Гос." },
     { value: path + "2020.09.19.png",   label: "2020.09.19" },
     { value: path + "2020.08.12.png",   label: "2020.08.12" },
+    { value: path + "2020.07.22.png",   label: "2020.07.22.png" },
+    { value: path + "2020.07.05.png",   label: "2020.07.05.png" },
     { value: path + "2020.07.04.png",   label: "2020.07.04" },
+    { value: path + "2020.07.03.png",   label: "2020.07.03.png" },
+    { value: path + "2020.07.01.png",   label: "2020.07.01.png" },
+    { value: path + "2020.06.30.png",   label: "2020.06.30.png" },
+    { value: path + "2020.06.23.png",   label: "2020.06.23.png" },
+    { value: path + "2020.06.15.png",   label: "2020.06.15.png" },
+    { value: path + "2020.06.11.png",   label: "2020.06.11.png" },
+    { value: path + "2020.06.08.png",   label: "2020.06.08.png" },
+    { value: path + "2020.06.07_3.png", label: "2020.06.07_3.png" },
+    { value: path + "2020.06.07_2.png", label: "2020.06.07_2.png" },
+    { value: path + "2020.06.07_1.png", label: "2020.06.07_1.png" },
     { value: path + "2020.06.06.png",   label: "2020.06.06" },
     { value: path + "2020.05.20.png",   label: "2020.05.20" },
+
+    
+    
+
 ];
 
 export default s1
