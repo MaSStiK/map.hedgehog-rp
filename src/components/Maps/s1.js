@@ -3,6 +3,8 @@ const path = "https://raw.githubusercontent.com/masstik/hedgehog-rp-assets/main/
 const s1 = [
     { value: path + "physical-map.png", label: "Физическая карта" },
     { value: path + "space-map.png",    label: "Космическая карта" },
+    { value: path + "2021.06.16_2016.png", label: "2021.06.16 2016" },
+    { value: path + "2021.06.16_1989.png", label: "2021.06.16 1989" },
     { value: path + "2021.06.04.png",   label: "2021.06.04" },
     { value: path + "2021.04.15.png",   label: "2021.04.15" },
     { value: path + "2021.03.26.png",   label: "2021.03.26" },
