@@ -5,6 +5,7 @@
 </p>
 
 # Hedgehog RP Map
+
 > **Projet principal :** [hedgehog-rp](https://github.com/MaSStiK/hedgehog-rp)
 
 **Hedgehog RP Map** est une carte interactive de l’univers Hedgehog RP. Elle permet de consulter la version actuelle de la carte du monde ainsi que les cartes archivées des saisons précédentes.
@@ -12,6 +13,7 @@
 Le projet sert à visualiser les États, les évolutions territoriales, les événements politiques et le développement du monde au fil de l’histoire de l’univers de jeu de rôle Hedgehog RP.
 
 ## ✨ Fonctionnalités
+
 - Consultation de la carte actuelle du monde
 - Accès aux cartes archivées des saisons précédentes
 - Suivi des changements territoriaux et politiques au fil du temps
@@ -19,11 +21,13 @@ Le projet sert à visualiser les États, les évolutions territoriales, les év�
 - Basculement entre différentes saisons
 
 ## 🔗 Projets associés
+
 - 🦔 [Hedgehog RP](https://github.com/MaSStiK/hedgehog-rp)
 - 📺 [Télévision Hérisson](https://github.com/MaSStiK/tv.hedgehog-rp)
 - 📊 [Statistiques de la conversation](https://github.com/MaSStiK/stats.hedgehog-rp)
 
 ## 🛠️ Technologies
+
 - **React** - interface utilisateur
 - **react-dropdown-select** - sélecteurs déroulants personnalisés
 - **react-zoom-pan-pinch** - zoom et navigation sur la carte
