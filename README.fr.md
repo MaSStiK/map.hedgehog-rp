@@ -32,6 +32,8 @@ Le projet sert à visualiser les États, les évolutions territoriales, les év�
 - **react-dropdown-select** - sélecteurs déroulants personnalisés
 - **react-zoom-pan-pinch** - zoom et navigation sur la carte
 
+<!-- portfolio:hide:start -->
+
 ## 📸 Cartes des saisons
 
 <table>
@@ -72,3 +74,5 @@ Le projet sert à visualiser les États, les évolutions territoriales, les év�
         </td>
     </tr>
 </table>
+
+<!-- portfolio:hide:end -->

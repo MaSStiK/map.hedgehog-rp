@@ -32,6 +32,8 @@ The project was used to visualize countries, territorial changes, political deve
 - **react-dropdown-select** - custom dropdown selectors
 - **react-zoom-pan-pinch** - map zooming and navigation
 
+<!-- portfolio:hide:start -->
+
 ## 📸 Season Maps
 
 <table>
@@ -72,3 +74,5 @@ The project was used to visualize countries, territorial changes, political deve
         </td>
     </tr>
 </table>
+
+<!-- portfolio:hide:end -->

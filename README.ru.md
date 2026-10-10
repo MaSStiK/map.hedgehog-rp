@@ -32,6 +32,8 @@
 - **react-dropdown-select** - выпадающие списки
 - **react-zoom-pan-pinch** - масштабирование и перемещение карты
 
+<!-- portfolio:hide:start -->
+
 ## 📸 Карты сезонов
 
 <table>
@@ -72,3 +74,5 @@
         </td>
     </tr>
 </table>
+
+<!-- portfolio:hide:end -->
