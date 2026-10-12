@@ -1,10 +1,14 @@
-<p class="language-switch" align="right">
-  <a href="./README.md">🇺🇸 English</a> |
-  <a href="./README.ru.md">🇷🇺 Русский</a> |
+<p class="language-switch" align="center">
+  <a href="./README.md">🇺🇸 English</a> •
+  <a href="./README.ru.md">🇷🇺 Русский</a> •
   <a href="./README.fr.md">🇫🇷 Français</a>
 </p>
 
+<div align="center">
+
 # Hedgehog RP Map
+
+</div>
 
 > **Main project:** [hedgehog-rp](https://github.com/MaSStiK/hedgehog-rp)
 
